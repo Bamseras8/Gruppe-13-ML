@@ -1,0 +1,14 @@
+path: disk:What_you_want_to_use\datasets\transset_v3
+train: images/train
+val: images/val
+test: images/test
+nc: 8
+names:
+  0: car
+  1: hatchback
+  2: pickup truck
+  3: sedan
+  4: suv
+  5: trailer
+  6: truck
+  7: van
