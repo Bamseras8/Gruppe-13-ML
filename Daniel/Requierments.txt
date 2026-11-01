@@ -1,0 +1,4 @@
+# Windows + NVIDIA GPU: install PyTorch with CUDA first, otherwise it trains on the CPU:
+# pip install torch==2.14.1 torchvision==0.29.1 --index-url https://download.pytorch.org/whl/cu130
+# Then (all systems): pip install -r Requierments.txt
+ultralytics==8.4.171
