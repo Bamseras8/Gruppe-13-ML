@@ -8,7 +8,7 @@ multiscale 640 px, input size randomly varied 320-960 px (multiscale traning)
 
 WHAT TO RUN IN TERMINAL:
 python train.py --setup baseline --smoke-test      # small trial run to check that everything works
-python train.py --setup x (baseline, hires, multiscale) --workers x (dependent on system, 4 is default) --epochs x (default is 80) --cache (ram, disk) (default=false
+python train.py --setup x (baseline, hires, multiscale) --workers x (dependent on system, 8 is default) --epochs x (default is 80) --cache (ram, disk) (default=false
 
 Needs the dataset (Form julius) datasets/transset_v3 and a GPU.
 Weights are saved to runs_v3/<exp>/weights/best.pt.
