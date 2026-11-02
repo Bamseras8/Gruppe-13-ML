@@ -1,0 +1,11 @@
+image,dataset_image,split,true_total,pred_total,found,class_right,true car,pred car,true hatchback,pred hatchback,true pickup truck,pred pickup truck,true sedan,pred sedan,true suv,pred suv,true trailer,pred trailer,true truck,pred truck,true van,pred van
+E6_night_trafic.png,,,,0,,,,0,,0,,0,,0,,0,,0,,0,,0
+E6_night_trafic.webp,,,,0,,,,0,,0,,0,,0,,0,,0,,0,,0
+MAN.jpeg,,,,0,,,,0,,0,,0,,0,,0,,0,,0,,0
+dronebilde-hauserseter-1500.webp,,,,1,,,,1,,0,,0,,0,,0,,0,,0,,0
+example_not_in_dataset.jpg,,,,19,,,,16,,0,,0,,0,,2,,0,,0,,1
+file_00261.jpg,file_00261,train,12,11,11,10,8,7,0,0,0,0,0,0,1,0,0,0,0,0,3,4
+file_01571.jpg,file_01571,train,8,9,7,5,5,4,0,0,0,0,1,0,0,2,1,2,1,1,0,0
+file_02017.jpg,file_02017,train,21,21,21,14,9,15,1,0,1,0,2,0,4,4,0,0,0,0,4,2
+file_02583.jpg,file_02583,val,13,13,13,12,3,4,0,0,3,3,1,0,4,4,1,1,0,0,1,1
+file_04117.jpg,file_04117,train,8,3,3,2,3,0,1,0,0,1,0,0,1,0,0,0,1,1,2,1
