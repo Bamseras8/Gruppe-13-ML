@@ -1,0 +1,13 @@
+image,dataset_image,split,true_total,pred_total,found,class_right,true car,pred car,true hatchback,pred hatchback,true pickup truck,pred pickup truck,true sedan,pred sedan,true suv,pred suv,true trailer,pred trailer,true truck,pred truck,true van,pred van
+dronebilde-hauserseter-1500.webp,,,,61,,,,31,,6,,0,,0,,0,,5,,0,,19
+E6_night_trafic.png,,,,6,,,,3,,0,,0,,0,,0,,1,,0,,2
+E6_night_trafic.webp,,,,7,,,,3,,0,,0,,0,,0,,3,,0,,1
+example_not_in_dataset.jpg,,,,21,,,,9,,1,,3,,4,,4,,0,,0,,0
+file_00887.jpg,file_00887,test,14,35,14,7,2,14,1,5,5,6,1,1,5,6,0,0,0,0,0,3
+file_02335.jpg,file_02335,test,3,8,3,1,1,4,0,1,0,0,0,0,1,1,0,0,0,0,1,2
+file_03024.jpg,file_03024,test,13,42,13,9,8,14,0,4,3,11,0,3,2,5,0,0,0,0,0,5
+file_04130.jpg,file_04130,test,21,41,20,18,7,12,0,1,0,1,2,5,0,1,10,12,1,3,1,6
+file_04656.jpg,file_04656,test,11,15,11,11,2,4,0,1,2,3,1,1,2,2,3,3,1,1,0,0
+file_04656_flipped_upside_down.png,,,,15,,,,10,,1,,1,,2,,0,,0,,1,,0
+file_04656_rotated_90.png,,,,26,,,,11,,1,,3,,0,,1,,10,,0,,0
+MAN.jpeg,,,,0,,,,0,,0,,0,,0,,0,,0,,0,,0
