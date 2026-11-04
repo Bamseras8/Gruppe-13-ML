@@ -3,10 +3,12 @@
 Extract this entire folder beside your old vehicle_evaluation folder. Do not mix their data.
 
 1. Open the folder in PyCharm.
-2. Install numpy in the project's Python interpreter: `pip install numpy`.
+2. Install the required packages: `python -m pip install -r requirements.txt`.
 3. Run `verify_download.py`, then `test_evaluation.py`. All ten tests should pass.
 4. Run `evaluate.py`.
 5. Open `results/summary.csv` and `results/largest_count_errors.csv`.
+6. Run `plot_results.py` to create the results graphs.
+7. Run `compare_examples.py` to create comparison images using the three example images in the images folder.
 
 Optional: run `cross_check.py`. This checks matching, AP and confusion matrices using a separate plain-Python implementation. It takes longer than the main evaluator.
 
