@@ -1,0 +1,10 @@
+actual,car,hatchback,pickup truck,sedan,suv,trailer,truck,van,missed
+car,327,21,54,160,226,2,6,14,116
+hatchback,37,33,1,26,33,0,0,2,16
+pickup truck,3,0,322,0,27,19,3,11,16
+sedan,80,8,0,296,45,0,0,2,23
+suv,48,3,36,10,556,0,0,16,28
+trailer,1,0,2,2,3,246,15,1,16
+truck,2,0,1,0,3,15,166,2,9
+van,4,0,16,0,28,4,3,123,11
+background,28,1,19,14,35,39,9,5,0
