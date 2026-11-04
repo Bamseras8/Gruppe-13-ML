@@ -12,7 +12,7 @@ Extract this entire folder beside your old vehicle_evaluation folder. Do not mix
 
 Optional: run `cross_check.py`. This checks matching, AP and confusion matrices using a separate plain-Python implementation. It takes longer than the main evaluator.
 
-Use Windows **Extract All** on the ZIP before opening the folder in PyCharm. Do not run files directly from inside the ZIP. The folder contains the code, three prediction CSVs, 706 label files and seven result CSVs. No images or trained weights are required for this package.
+Use Windows **Extract All** on the ZIP before opening the folder in PyCharm. Do not run files directly from inside the ZIP. The folder contains the code, three prediction CSVs, 706 label files and seven result CSVs. Images are only needed for the comparison figures. Trained weights are not required
 
 This evaluates all three saved prediction CSVs against 706 cleaned test-label files containing 3,299 vehicles. Images and model weights are not needed for this calculation.
 
@@ -34,4 +34,4 @@ Precision/recall/F1 use same-class matching at IoU >= 0.5. mAP uses the exported
 
 The old 705-image results belong to a different split and must not be presented as these new results. These test scores do not establish performance on night photos, side-view photos or rotated inputs.
 
-This package does not retrain models or rerun inference on all images. It verifies the saved predictions. The next task is to inspect a few largest-error images and understand the metrics before writing your report section.
+This package does not retrain models or rerun inference on all images. It verifies the saved predictions.
