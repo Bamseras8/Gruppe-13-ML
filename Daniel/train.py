@@ -1,5 +1,5 @@
 """
-Train a YOLO11 vehicle detector for one experiment.
+Train a YOLO vehicle detector for one experiment.
 
 Setups:
 baseline full image downscaled to 640 px (reference)
@@ -30,7 +30,6 @@ SETUP = {
     "multiscale": dict(imgsz=640, batch=16, multi_scale=0.5),
 }
 
-
 def main():
     argu = argparse.ArgumentParser()
     argu.add_argument("--setup", required=True, choices=SETUP)
@@ -42,7 +41,7 @@ def main():
 
     name = f"{args.setup}_smoke" if args.smoke_test else args.setup
     train_args = dict(
-        data=str(DATA_GO), epochs=args.epochs, patience=15, workers=args.workers, cache=args.cache,
+        data=str(DATA_GO), epochs=args.epochs, patience=15, workers=args.workers, cache=args.cache, # <- can change pationce to what is relevant to how many you need / epochs you use
         project=str(RUNS_HERE), name=name, exist_ok=True, seed=0, **SETUP[args.setup]
     )
     if args.smoke_test:
@@ -51,7 +50,6 @@ def main():
     MODEL_GO.parent.mkdir(exist_ok=True)
     YOLO(str(MODEL_GO)).train(**train_args)
     print(f"Done. Best weights: {RUNS_HERE / name / 'weights' / 'best.pt'}")
-
 
 if __name__ == "__main__":
     main()
