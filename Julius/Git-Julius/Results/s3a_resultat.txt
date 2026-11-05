@@ -1,0 +1,12 @@
+=== STEG 3a: GRUPPERING AV LIKE BILDER ===
+Uroterte bilder: 3959
+
+Terskel  4:  2121 grupper | største gruppe  223 bilder (5.6 %) | 1772 bilder alene
+Terskel  8:   933 grupper | største gruppe  386 bilder (9.7 %) | 689 bilder alene
+Terskel 12:   435 grupper | største gruppe  714 bilder (18.0 %) | 294 bilder alene
+Terskel 16:   154 grupper | største gruppe 3684 bilder (93.1 %) | 105 bilder alene
+
+Eksempelgrupper (terskel 8) - åpne noen og se om de ligner:
+  Gruppe med 386 bilder: ['file_00012', 'file_00024', 'file_00027', 'file_00035', 'file_00055', 'file_00056']
+  Gruppe med 261 bilder: ['file_00026', 'file_00078', 'file_00122', 'file_00163', 'file_00164', 'file_00236']
+  Gruppe med 239 bilder: ['file_00017', 'file_00021', 'file_00022', 'file_00025', 'file_00041', 'file_00067']

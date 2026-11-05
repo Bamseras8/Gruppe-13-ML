@@ -1,0 +1,4 @@
+=== STEG 2b: ROTERTE BILDER ===
+Bilder totalt:  4704
+Rotert (svarte hjørner): 745 (15.8 %)
+Eksempler: ['file_00001', 'file_00003', 'file_00007', 'file_00015', 'file_00019', 'file_00030', 'file_00032', 'file_00033', 'file_00039', 'file_00042', 'file_00043', 'file_00045', 'file_00046', 'file_00052', 'file_00054']

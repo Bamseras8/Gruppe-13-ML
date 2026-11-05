@@ -1,0 +1,21 @@
+=== STEG 1: FILER OG KLASSER ===
+Bilder (.jpg):              4704
+Labelfiler (uten classes):  4704
+Bilder uten label:          0  []
+Labels uten bilde:          0  []
+Tomme labelfiler:           2  ['file_00937', 'file_04408']
+Linjer med feil format:     0  []
+Ugyldige klasse-ID-er:      0  []
+
+Antall bokser per klasse:
+  0  car            6144
+  1  hatchback      1138
+  2  pickup truck   2627
+  3  sedan          2270
+  4  suv            4718
+  5  trailer        1881
+  6  truck          1379
+  7  van            1504
+  Totalt              21661
+
+Bokser per bilde: min 0, maks 24, snitt 4.6

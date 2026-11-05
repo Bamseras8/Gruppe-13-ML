@@ -1,0 +1,12 @@
+=== STEG 2: BOUNDING-BOKSER ===
+Bildestørrelser (bredde x høyde: antall):
+  1024 x 1024: 4704
+Bokser sjekket:              21661
+Bredde/høyde <= 0:           5  [('file_00142', 4), ('file_01114', 3), ('file_02177', 4), ('file_02495', 3), ('file_03718', 4)]
+Går utenfor bildekanten:     9  [('file_00458', 1), ('file_00458', 4), ('file_01122', 1), ('file_01592', 5), ('file_01768', 1)]
+Duplikatlinjer:              0  []
+Svært små bokser (<8 px): 24  [('file_00005', 4, 21, 2), ('file_00015', 5, 148, 5), ('file_00173', 1, 72, 8), ('file_00173', 3, 3, 22), ('file_00226', 4, 89, 2)]
+
+Boksstørrelse i piksler (min / median / maks):
+  Bredde: 3 / 101 / 925
+  Høyde:  1 / 60 / 714

@@ -1,0 +1,23 @@
+=== STEG 3b: SPLIT ===
+Terskel: t8, seed: 42
+
+train   3292 bilder (70.0 %)  herav roterte: 745
+val      706 bilder (15.0 %)  herav roterte: 0
+test     706 bilder (15.0 %)  herav roterte: 0
+
+Endringer i labels:
+  fjernet: under 8 px: 24
+  fjernet: bredde/høyde <= 0: 5
+  klippet til bildekanten: 9
+
+Bokser per klasse (andel i train / val / test):
+  car             6126   71.0 % / 13.9 % / 15.1 %
+  hatchback       1138   72.8 % / 14.1 % / 13.0 %
+  pickup truck    2627   69.1 % / 15.6 % / 15.3 %
+  sedan           2270   67.6 % / 12.4 % / 20.0 %
+  suv             4718   70.8 % / 14.5 % / 14.8 %
+  trailer         1879   65.6 % / 19.2 % / 15.2 %
+  truck           1374   73.7 % / 11.9 % / 14.4 %
+  van             1500   74.0 % / 13.4 % / 12.6 %
+
+Ferdig datasett: C:\data\TRANSSET_yolo
